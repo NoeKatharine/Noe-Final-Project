@@ -3,9 +3,27 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  .col-md-4 {
+.jumbotron {
+  text-align: center;
+}
+
+.col-md-4 {
     font-size: 16px;
   }
+
+.container {
+  text-align: center;
+}
+
+p.container {
+    text-align: center;
+}
+
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
 
 h2 {
   font-size: 30px;
