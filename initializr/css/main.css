@@ -3,6 +3,8 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
    h1 {
      font-size: 30px;
       text-align: center;
@@ -14,13 +16,62 @@
      text-transform: uppercase;
    }
 
+   .image {
+       position: relative;
+       width: 150px;
+       height: 100px;
+       border: 2px dashed #444;
+       margin: 10px;
+       float: left
+   }
+   .HeaderOverlay {
+       display: none;
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       background: #999;
+       background: rgba(0,0,0,0.3);
+       text-align: center
+   }
+   .thumb:hover .text {
+       display: block
+   }
+
+
 .jumbotron {
   text-align: center;
 }
 
 .container {
   position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.HeaderOverlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba (0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
   text-align: center;
+}
+
+.container:hover.overlay {
+  opacity: 1;
 }
 
 .jumbotron h1 {
@@ -38,4 +89,12 @@
 .col-md-4 {
  font-size: 16px;
  text-align: center;
+}
+
+.fas {
+  font-size: 30px;
+}
+
+.fas:hover {
+  opacity: 0.7;
 }
