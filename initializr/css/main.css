@@ -3,29 +3,54 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background-color: rgb(7, 11, 14);
+}
+
  h1 {
      font-size: 30px;
-     text-align: center;
+     text-align: left;
+     font-family: 'Saira Extra Condensed',serif;
+     color: rgb(7, 11, 14);
+     text-transform: uppercase;
+     font-weight: 500;
    }
 
 h2 {
-     font-size: 30px;
-     text-align: center;
+     font-size: 15px;
+     text-align: left;
+     font-family: 'Saira Extra Condensed',serif;
      text-transform: uppercase;
+     font-weight: 500;
    }
 
+.jumbotron {
+     background-color: rgb(7, 11, 14);
+   }
 
+.topcontainer h1 {
+     text-align: left;
+     font-size: 45px;
+     font-family: sans-serif;
+   }
+
+.topcontainer h2 {
+  text-transform: lowercase;
+}
 
 .container {
   max-width: 100%;
 }
 
-.col-md-4 h1 {
-  font-size: 30px;
+.col-md-4 h2 {
+  font-weight: 500;
+  font-family: inherit;
+  line-height: 1.2;
+  color: inherit;
 }
 
-.topcontainer h1 {
-  text-align: left;
+.col-md-4 h1 {
+  font-size: 30px;
 }
 
 .topcontainer p {
