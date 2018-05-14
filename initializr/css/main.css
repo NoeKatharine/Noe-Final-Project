@@ -5,39 +5,47 @@
    ========================================================================== */
 body {
   background-color: rgb(7, 11, 14);
+  font-family:'Dosis', sans-serif;
 }
 
  h1 {
      font-size: 30px;
      text-align: left;
-     font-family: 'Saira Extra Condensed',serif;
-     color: rgb(7, 11, 14);
+     font-family: 'Montserrat', sans-serif;
+     color: white;
      text-transform: uppercase;
      font-weight: 500;
    }
 
 h2 {
      font-size: 15px;
-     text-align: left;
-     font-family: 'Saira Extra Condensed',serif;
+     text-align: justify;
+     font-family:'Dosis', sans-serif;
      text-transform: uppercase;
      font-weight: 500;
    }
+
+p {
+  font-size: 15px;
+  text-align: justify;
+  font-family:'Dosis', sans-serif;
+}
 
 .jumbotron {
      background-color: rgb(7, 11, 14);
    }
 
 .topcontainer h1 {
-     text-align: left;
+     text-align: center;
      font-size: 60px;
-     font-family: 'Saira Extra Condensed',serif;
+     font-family:'Dosis', sans-serif;
      padding-bottom: 25px;
-     padding-top: 25px;
+     color: white;
+     padding-top:
    }
 
-.topcontainer h2 {
-  text-transform: lowercase;
+.topcontainer p {
+  text-align: justify;
 }
 
 .container {
