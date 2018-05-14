@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DataTables exercise</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" />
+  <style>
+      body {
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+  </style>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script>
+  $(document).ready(function() {
+  $('#example').DataTable( {
+      "scrollY":        "200px",
+      "scrollCollapse": true,
+      "paging":         false
+  } );
+} ); </script>
+</head>
+<body>
+  <h1> Take A Scroll Through My Experiences!</h1>
+  <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Position</th>
+                <th>Location</th>
+                <th>Age</th>
+                <th>Dates</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Company Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Dates</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+              <td>The Impeccable Pig</td>
+              <td>Sales Associate</td>
+              <td>San Antonio, TX</td>
+              <td>15</td>
+              <td>2011-2012</td>
+            </tr>
+            <tr>
+              <td>Penny Lane</td>
+              <td>Sales Associate</td>
+              <td>San Antonio, TX</td>
+              <td>16</td>
+              <td>2012-2014</td>
+            </tr>
+            <tr>
+              <td>Camp Longhorn</td>
+              <td>Camp Counselor</td>
+              <td>Burnet, TX</td>
+              <td>19</td>
+              <td>2015</td>
+            </tr>
+            <tr>
+              <td>Rank & Style</td>
+              <td>Partnership Development & Marketing Intern</td>
+              <td>Austin, TX</td>
+              <td>20</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Orange Magazine</td>
+              <td>Style Staff Writer</td>
+              <td>Austin, TX</td>
+              <td>21</td>
+              <td>2017</td>
+            </tr>
+            <tr>
+              <td>Zoe Media Group</td>
+              <td>Social Media Intern</td>
+              <td>Los Angeles, CA</td>
+              <td>21</td>
+              <td>2017</td>
+            </tr>
+            <tr>
+              <td>SHO+CO</td>
+              <td>PR Assistant</td>
+              <td>Los Angeles, CA</td>
+              <td>21</td>
+              <td>2017</td>
+            </tr>
+            <tr>
+                <td>Reward Style & LIKEtoKNOW.it</td>
+                <td>LIKEtoKNOW.it LOVE</td>
+                <td>Austin, TX</td>
+                <td>21</td>
+                <td>current</td>
+            </tr>
+            <tr>
+              <td>Spark Magazine</td>
+              <td>Editorial Stylist</td>
+              <td>Austin, TX</td>
+              <td>22</td>
+              <td>current</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
