@@ -25,8 +25,8 @@
 
         <script>
         $(document).ready(function() {
-        $('#example').DataTable( {
-        "scrollY":        "200px",
+        $('#Experience').DataTable( {
+        "scrollY":        "500px",
         "scrollCollapse": true,
         "paging":         false
  } );
@@ -70,75 +70,77 @@
         <div class="col-md-12">
           <h2>Experience</h2>
 
-          <table id="example" class="display" cellspacing="0" width="100%">
+          <div id = "example_wrapper" class="dataTables_wrapper">
+          <div class="dataTables_scroll">
+          <div class="dataTables_scrollHead">
+          <div class="dataTables_scrollHeadInner">
+            <table class="display dataTable"></table>
+          </div>
+        </div>
+        <div class="dataTables_scrollBody">
+          <table id="Experience" class="display" cellspacing="5px" max-width="100%">
         <thead>
             <tr>
-                <th>Name</th>
+                <th>Company</th>
                 <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Start date</th>
-                <th>Salary</th>
+                <th>Location</th>
+                <th>When</th>
             </tr>
         </thead>
-        <tfoot>
-            <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Start date</th>
-                <th>Salary</th>
-            </tr>
-        </tfoot>
         <tbody>
             <tr>
-                <td>Tiger Nixon</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>61</td>
-                <td>2011/04/25</td>
-                <td>$320,800</td>
+                <td>The Impeccable Pig</td>
+                <td>Sales Associate</td>
+                <td>San Antonio, TX</td>
+                <td>2011-2012</td>
             </tr>
             <tr>
-                <td>Garrett Winters</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>63</td>
-                <td>2011/07/25</td>
-                <td>$170,750</td>
+                <td>Penny Lane</td>
+                <td>Sales Associate</td>
+                <td>San Antonio, TX</td>
+                <td>2012-2014</td>
             </tr>
             <tr>
-                <td>Ashton Cox</td>
-                <td>Junior Technical Author</td>
-                <td>San Francisco</td>
-                <td>66</td>
-                <td>2009/01/12</td>
-                <td>$86,000</td>
+                <td>Camp Longhorn</td>
+                <td>Camp Counselor</td>
+                <td>Burnet, TX</td>
+                <td>2015</td>
             </tr>
             <tr>
-                <td>Cedric Kelly</td>
-                <td>Senior Javascript Developer</td>
-                <td>Edinburgh</td>
-                <td>22</td>
-                <td>2012/03/29</td>
-                <td>$433,060</td>
+                <td>Rank & Style</td>
+                <td>Marketing & Partnership Development Intern</td>
+                <td>Austin, TX</td>
+                <td>2016</td>
             </tr>
             <tr>
-                <td>Airi Satou</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>33</td>
-                <td>2008/11/28</td>
-                <td>$162,700</td>
+                <td>Orange Magazine</td>
+                <td>Style Staff</td>
+                <td>Austin, TX</td>
+                <td>2017</td>
             </tr>
             <tr>
-                <td>Brielle Williamson</td>
-                <td>Integration Specialist</td>
-                <td>New York</td>
-                <td>61</td>
-                <td>2012/12/02</td>
-                <td>$372,000</td>
+                <td>Zoe Media Group</td>
+                <td>Social Media Intern</td>
+                <td>Los Angeles, CA</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>SHO+CO</td>
+                <td>Publoc Relations Assistant</td>
+                <td>Los Angeles, CA</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>Spark Magazine</td>
+                <td>Editorial Stylist</td>
+                <td>Austin, TX</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>Reward Style</td>
+                <td>LIKEtoKNOW.it LOVE</td>
+                <td>Austin, TX</td>
+                <td>2017</td>
             </tr>
         </tbody>
     </table>
