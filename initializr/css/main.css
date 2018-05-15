@@ -33,11 +33,13 @@ p {
 
 th {
   margin: 0 auto;
+  color: black;
 }
 
 thead,
 tbody {
   display: block;
+  background-color: white;
 }
 
 tbody {
@@ -62,6 +64,8 @@ display. dataTable {
   overflow: auto;
   max-height: 200px;
   width: 100%;
+  background: white;
+  color: black;
 }
 
 .experiencetable {
@@ -95,7 +99,7 @@ display. dataTable {
    }
 
 .topcontainer p {
-  text-align: center;
+  text-align: justify;
 }
 
 .container {
